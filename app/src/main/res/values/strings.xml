@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My MySQL login signUp Application</string>
+    <string name="signup">Signup</string>
+    <string name="login_here">Login Here</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup_here">Signup Here</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="welcome">Welcome</string>
+</resources>
