@@ -69,7 +69,7 @@ public class Login extends AppCompatActivity {
                             String[] data = new String[2];
                             data[0] = username;
                             data[1] = password;
-                            PutData putData = new PutData("https://192.168.1.222/filahti/mobileApp/login.php", "POST", field, data);
+                            PutData putData = new PutData("https://192.168.1.222/mobileApp/login.php", "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     progressBar.setVisibility(View.GONE);
